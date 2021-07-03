@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+/* Style the tab */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+.tab {
+  overflow: hidden;
+  border: 1px solid #FFF3F0;
+  background-color: #00296B;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: #00296B;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 119px;
+  transition: 0.3s;
+  font-size: 20px;
+  color: #FDC500;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #FFF3F0;
+  color: #00509D;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #00509D;
+  color: #FB8B24;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 20px 430px;
+  border: 1px solid #ECA400;
+  border-top: none;
+}
